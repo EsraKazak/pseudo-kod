@@ -1,0 +1,46 @@
+              Pseudo Kod Ödevi
+
+
+Başla 	
+	ilk sayiyi gir(sayi1)
+	ikinci sayiyi gir(sayi2)
+	toplam = sayi1+sayi2
+bitir
+
+------------------------------------------
+
+Başla
+	toplm=0
+	1 den 100 e kadar olan sayıları için:
+		toplma+=sayı
+	toplam yazdır
+bitir
+
+-------------------------------------------------
+Başla 
+	sayi gir(x)
+	eğer x<=1: 
+		x asal değil
+	diğer durumda: 
+		x den (x-1) e kadar
+			i=2
+			eğer  x%i==0:
+				sayı asal değil
+				break
+			diğer durumda:
+				sayı asal 
+				false
+			i++
+bitir
+
+-----------------------------------------------------
+Başla 
+	diziyi tanımların
+	0 dan dizi boyutu-1 için:
+		1 den dizi boyutu-1 için:
+			eğer dizi[i]==dizi[j] ve i!=j: 
+				tekrar eden dizi
+			diğer durumda:
+				tekrarlı dizi değil
+bitir
+		
